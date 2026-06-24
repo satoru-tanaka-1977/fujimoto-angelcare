@@ -510,11 +510,150 @@ ul {
     color: var(--color-accent);
     line-height: 2;
     font-style: italic;
-}ß
+}
+
+/* ============================================
+   Section - FAQ
+============================================ */
+
+#faq {
+    background-color: var(--color-light);
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-item {
+    border-bottom: 1px solid var(--color-accent);
+    padding: 24px 0;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-q {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color-mid-dark);
+    margin-bottom: 12px;
+    padding-left: 28px;
+    position: relative;
+}
+
+.faq-q::before {
+    content: "Q";
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+    font-weight: bold;
+}
+
+.faq-a {
+    font-size: 0.95rem;
+    color: var(--color-text);
+    line-height: 2;
+    padding-left: 28px;
+    position: relative;
+}
+
+.faq-a::before {
+    content: "A";
+    position: absolute;
+    left: 0;
+    color: var(--color-sub-text);
+    font-weight: bold;
+}
 
 /* ============================================
    Footer
 ============================================ */
+
+#footer {
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+
+#footer .wrapper {
+    background-color: rgba(20, 10, 35, 0.75);
+    padding: 60px 40px;
+}
+
+#footer .sec-label {
+    color: var(--color-sub-text);
+}
+
+#footer .sec-title {
+    color: var(--color-light);
+}
+
+#footer .sec-sub {
+    color: var(--color-sub-text);
+}
+
+.footer-urgent {
+    border: 1px solid rgba(201, 169, 110, 0.4);
+    background-color: rgba(201, 169, 110, 0.08);
+    padding: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.urgent-label {
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    color: var(--color-accent);
+    margin-bottom: 12px;
+}
+
+.urgent-tel {
+    font-size: 2.5rem;
+    color: var(--color-light);
+    letter-spacing: 0.08em;
+    margin-bottom: 12px;
+    font-weight: normal;
+}
+
+.urgent-note {
+    font-size: 0.85rem;
+    color: var(--color-sub-text);
+    line-height: 1.9;
+}
+
+.footer-contact {
+    margin-bottom: 40px;
+}
+
+.contact-label {
+    font-size: 0.85rem;
+    color: var(--color-sub-text);
+    letter-spacing: 0.15em;
+    margin-bottom: 16px;
+}
+
+.footer-contact ul li {
+    margin-bottom: 8px;
+}
+
+.footer-contact ul li a {
+    font-size: 0.95rem;
+    color: var(--color-accent);
+}
+
+.footer-contact ul li a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    color: var(--color-sub-text);
+    text-align: center;
+    letter-spacing: 0.1em;
+}
 
 /* ============================================
    Responsive
