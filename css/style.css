@@ -22,6 +22,18 @@ body {
     font-size: 16px;
 }
 
+h1,h2, h3 {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.hero-copy {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.step-number {
+    font-family: 'Noto Serif JP', serif;
+}
+
 a {
     color: inherit;
     text-decoration: none;
