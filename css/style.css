@@ -143,7 +143,8 @@ ul {
 
 #header nav ul li a {
     font-size: 0.85rem;
-    color: var(--color-sub-text);
+    /* color: var(--color-sub-text); */
+    color: #e2d8ef;
     letter-spacing: 0.1em;
 }
 
